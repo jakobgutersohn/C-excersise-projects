@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cmath>
+
+int main() {
+    int number;
+    std::cout << "This program will calculate the square root of a number\n";
+    std::cout << "Enter number: ";
+    std::cin >> number;
+
+    double square_root = sqrt(number);
+
+    std::cout << "The square root of " << number << " is " << square_root << "\n";
+
+    return 0;
+}
